@@ -141,6 +141,17 @@
     padding-bottom: 150px;
     margin: auto;
 }
+/* .loction-container{
+    display: flex;
+    justify-content: center;
+    width: 1440px;
+    height: 320px;
+    margin: auto;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    background-repeat: no-repeat;
+   
+} */
 .loction{
     display: flex;
     justify-content: center;
@@ -176,8 +187,9 @@
     font-size: 45px;
     font-weight: 800;
     padding-right: 100px;
-    pa
+
 }
+
 .off{
     color: red;
 }
@@ -193,4 +205,14 @@
 }
 .btn:hover{
     background: #fc97aa;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    padding-top:50px;
+    gap: 20px;
+    width: 342px;
+    height: 396px;
+    margin: auto;
+  
 }
