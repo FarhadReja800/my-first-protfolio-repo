@@ -166,7 +166,6 @@
 .title{
     display: flex;
     justify-content: center;
-    justify-content: center;
     gap: 330px;
     align-items: center;
     color: #272727;
@@ -175,13 +174,15 @@
     text-align: center;
     font-size: 24px;
     font-weight: 700;
-    line-height: 35px;
     text-decoration-line: underline;
-}
-.title{
-    text-align: center;
     padding-bottom: 150px;
-    margin: auto;
+}
+.img-pink{
+    padding-top: 42px;
+}
+.img-red{
+    padding-top: 20px;
+    align-items: center;
 }
 
 .loction{
