@@ -6,10 +6,12 @@
     scroll-behavior: smooth;
     box-sizing: border-box;
 }
+ /* navbar starts here */
 .nav-container{
-    width: 100%;
+    max-width: 1920px;
     display: flex;
     justify-content: space-around;
+    margin: auto;
     align-items: center;
     background-color: gray;
     padding: 20px;
@@ -23,9 +25,7 @@
 .nav-bar ul{
     list-style: none;
     display: flex;
-    font-size:40px;
-
-    
+    font-size:25px;   
 }
 .nav-bar li a{
     color: white;
@@ -40,13 +40,22 @@
 .nav-bar li a:hover{
     background: #fc97aa;
 }
-.header-container{
-    max-width: 100%;
+/* navbar ends here */
+
+/* header stards here */
+
+/* section{
+    padding: 60px 14% 70px;
+} */
+
+ .header-container{
+    max-width: 1920px;
     height: 850px;
+    margin: auto;
     align-items: center;
     background-color: rgba(229, 84, 115, 0.10);
     background-position: bottom right, top left;
-     }
+     } 
 .banner-container{
     display: flex;
     justify-content: space-around;
@@ -64,7 +73,7 @@
     color: #272727;
     font-size: 80px;
     font-weight: 800;
-    margin-left: 150px;
+    padding-left: 80px;
     
     
 }
@@ -76,7 +85,7 @@
     margin-left: 150px;
     padding: 10px;
 
-}
+} 
 .btn-primary{
     color: white;
     font-size: 18px;
@@ -91,12 +100,17 @@
 .btn-primary:hover{
     background: #fc97aa;
 }
+
 .banner-img{
-    margin-right: 150px;
+    width: 635px;
+    height: 800px;
     display: block;
     
 
 }
+/* header ends here */
+
+/*main section stards here */
 .main-section{
     text-align: center;
     padding-top: 150px;
@@ -134,7 +148,7 @@
     
 }
 .img-info-1{
-    width: 464px;
+    max-width: 464px;
     height: 470px;
     flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
@@ -142,7 +156,7 @@
     
 }
 .img-info-2{
-    width: 464px;
+    max-width: 464px;
     height: 470px;
     gap: 30px;
     padding: auto;
@@ -152,7 +166,7 @@
 
 }
 .img-pink{
-    width: 310px;
+    max-width: 310px;
     height: 428px;
     display: block;
     padding-bottom: 0px;
@@ -182,7 +196,7 @@
 .loction{
     display: flex;
     justify-content: center;
-    width: 1440px;
+    max-width: 1440px;
     height: 320px;
     margin: auto;
     border-radius: 8px;
@@ -196,11 +210,13 @@
    
 }
 .roses{
-    width: 100%;
+    max-width: 1920px;
     height: 620px;
     margin-top: 150px;
     border-radius: 8px;
+    margin: auto;
     background: rgba(229, 84, 115, 0.05);
+    margin-top: 150px;
 }
 .rose-container{
     display: flex;
@@ -238,14 +254,14 @@
     justify-content: center;
     padding-top:50px;
     gap: 20px;
-    width: 342px;
+    max-width: 342px;
     height: 396px;
     margin: auto;
     padding-bottom: 150px;
   
 }
 .search-box{
-    width: 1440px;
+    max-width: 1440px;
     height: 449px;
     background-image: url("../images/rectangle13.png");
     background-repeat: no-repeat;
@@ -254,6 +270,7 @@
     text-align: center;
     align-items: center;
     margin: auto;
+    margin-bottom: 150px;
     margin-top: 150px;
     
 
@@ -263,8 +280,8 @@
 .search{
     padding-top: 100px;
 }
-.search-containet  {
-    /* display: block;
+/* .search-container {
+     display: block;
     text-align: center;
     padding: 15px 15px 40px;
     color: #757575;
@@ -272,9 +289,9 @@
     border: 0px;
     width: 30%;
     margin: auto;
-    padding-top: 10px; */
+    padding-top: 10px; 
 
-}
+} */
 .email-info{
     display: block;
     font-size: 18px;
@@ -299,11 +316,22 @@
     padding: 20px 20px;
     border: 0px;
 }
+/*main section ends here */
+
+/*footer section stards here */
 .footer-container{
-    width: 100%;
-    padding-top: 150px;
-    margin-top: 150px;
+    max-width: 1920px;
+    margin-bottom: 150px;
+    margin: auto;
     height: 449px;
     background: rgba(5, 151, 160, 0.15);
-    padding: auto;
+    padding-top: 150px;
 }
+.copy-tag{
+    font-size: 15px;
+    padding-top: 50px;
+    text-align: center;
+    font-weight: 200;
+    font-family: serif;
+}
+/*footer section ends here */
